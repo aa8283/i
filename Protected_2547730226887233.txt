@@ -1,1 +1,7 @@
-print("skip")
+local kk = "https://discord.gg/uY2fcVbhg3"
+setclipboard(kk)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "join our discord";
+    Text = "paste it in your browser to join";
+    Duration = 10;
+})
