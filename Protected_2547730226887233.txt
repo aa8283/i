@@ -4,7 +4,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
-local discordLink = "https://discord.gg/XM583tbPVg"
+local discordLink = "https://discord.gg/cnTv8vke7G"
 
 -- Tạo ScreenGui
 local screenGui = Instance.new("ScreenGui")
