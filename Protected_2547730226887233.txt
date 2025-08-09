@@ -1,1 +1,14 @@
-loadstring(game:HttpGet("https://pastefy.app/ujLAPnim/raw?part=hihi"))()
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Yo",
+    Text = "Join our Discord: discord.gg/cnTv8vke7G",
+    Duration = 8,
+    Button1 = "Join",
+    Button2 = "Close",
+    Callback = function(button)
+        if button1 == "Join" then
+            setclipboard("https://discord.gg/cnTv8vke7G")
+        elseif button2 == "Close" then
+            print("fuck you nigger. why you close")
+        end
+    end
+})
